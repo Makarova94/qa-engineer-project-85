@@ -516,6 +516,20 @@
   expected-result: |
     HTTPS сертификат действующий 
 
+- summary: |
+   Проверка функционирования кнопки в шапке сайта "Codebattle by Hexlet’s community" 
+  requirement: | 
+   При нажатит на кнопку "Codebattle by Hexlet’s community"  в шапке веб-сайта, она должна редиректить на «Главную страницу» сайта    
+  prerequisites: |
+   Открыта страница сайта
+  test-data: |
+    https://codebattle.hexlet.io/#lobby
+  steps: 
+   - Перейти в профиль пользователя
+   - Нажать на кнопку "Codebattle by Hexlet’s community" в шапке веб-сайта
+  expected-result: |
+    Осуществляется переход на главную страницу сайта 
+
 
 
 
