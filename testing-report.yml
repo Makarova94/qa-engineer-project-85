@@ -200,7 +200,7 @@
   
 - summary: |
     Проверка создания нового Task pack
-  status: pass
+  status: fail
   
 - summary: |
     Проверка создания Create new task pack с неуникальным наименованием
