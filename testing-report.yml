@@ -201,6 +201,10 @@
 - summary: |
     Проверка создания нового Task pack
   status: fail
+
+- summary: | 
+    Проверка создания Create new task pack с неуникальным наименованием
+  status: fail
   
 - summary: |
     Проверка создания Create new task pack с неуникальным наименованием
