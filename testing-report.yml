@@ -203,12 +203,12 @@
   status: fail
 
 - summary: | 
-    Проверка создания Create new task pack с неуникальным наименованием
+    Проверка создания нового Task pack с вводом некооректных символов в поле Task_ids
   status: fail
   
 - summary: |
     Проверка создания Create new task pack с неуникальным наименованием
-  status: pass
+  status: fail
   
 - summary: |
     Проверка создания турниров с одинаковыми названиями
