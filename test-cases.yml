@@ -6,7 +6,7 @@
     Пользователь не должен быть авторизован
     https://codebattle.hexlet.io/users/new
   test-data: |
-    Псевдоним = Wqqwqw Электронная почта = gjgjg@gjg.ru Пароль = badpass Пароль = badpass
+    Псевдоним = новый псевдоним Электронная почта = новый e-mail Пароль = badpass Пароль = badpass
   steps:
     - Вводим псевдоним
     - Вводим электронную почту
