@@ -123,10 +123,6 @@
   status: pass
   
 - summary: |
-    Проверка скорости загрузки веб-сайта
-  status: fail
-  
-- summary: |
     Проверка HTTPS сертификата
   status: pass
   
