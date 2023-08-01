@@ -402,8 +402,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь должен иметь аккаунт на Github
   test-data: |
+    Пользователь должен иметь аккаунт на Github
   steps:
     - Нажать на кнопку "Войти через Github"
   expected-result: |
@@ -417,8 +417,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь должен иметь аккаунт на Discord
   test-data: |
+    Пользователь должен иметь аккаунт на Discord
   steps:
     - Нажать на кнопку "Войти через Discord"
   expected-result: |
@@ -432,8 +432,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь не должен иметь аккаунт на Github
   test-data: |
+    Пользователь не должен иметь аккаунт на Github
   steps:
     - Нажать на кнопку "Войти через Github"
   expected-result: |
@@ -447,8 +447,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь должен иметь аккаунт на Github. Аккаунт Codebattle должен быть привязан к Github
   test-data: |
+    Пользователь должен иметь аккаунт на Github. Аккаунт Codebattle должен быть привязан к Github
   steps:
     - Авторизоваться с помощью Github
     - Нажать на изображение учетной записи
@@ -465,8 +465,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь не должен иметь аккаунт на Discord
   test-data: |
+    Пользователь не должен иметь аккаунт на Discord
   steps:
     - Нажать на кнопку "Войти через Discord"
   expected-result: |
@@ -480,8 +480,8 @@
     Открыта страница регистрации
     https://codebattle.hexlet.io/users/new
     Пользователь не должен быть авторизован
-    Пользователь должен иметь аккаунт на Discord. Аккаунт Codebattle должен быть привязан к Discord
   test-data: |
+    Пользователь должен иметь аккаунт на Discord. Аккаунт Codebattle должен быть привязан к Discord
   steps:
     - Авторизоваться с помощью Discord
     - Нажать на изображение учетной записи
@@ -496,8 +496,8 @@
     Пользователь должен перенаправлятся на страницу «Забыли пароль» при нажатии на кнопку «Забыли пароль»
   prerequisites:
     Пользователь не должен быть авторизован
-    https://codebattle.hexlet.io/session/new
   test-data: |
+    https://codebattle.hexlet.io/session/new
   steps:
     - Нажать на кнопку "Забыли пароль"
   expected-result: |
@@ -528,9 +528,9 @@
     Пользователь должен иметь доступ к сайту через мобильную версию
   prerequisites: |
     Открыта главная страница сайта
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть главную страницу сайта 
     - Зайти в DevTools
@@ -551,9 +551,9 @@
     Корректное отображение сайта на предмет функциональности всех элементов, качественного отображения и единого дизайна, во всех актуальных версиях браузеров (Chrome, Firefox, Opera)
   prerequisites: |
     Открыта главная страница сайта
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть главную страницу сайта в браузерах (Chrome, Firefox, Opera)
     - Перейти в профиль пользователя 
@@ -568,9 +568,9 @@
     HTTPS сертификат должен быть действительным   
   prerequisites: |
     Открыта главная страница сайта
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть главную страницу сайта
     - Нажать на знак замка в адресной строке 
@@ -584,9 +584,9 @@
     При нажатит на кнопку "Codebattle by Hexlet’s community"  в шапке веб-сайта, она должна редиректить на «Главную страницу» сайта    
   prerequisites: |
     Открыта главная страница сайта
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Перейти во вкладку профиль пользователя
     - Нажать на кнопку "Codebattle by Hexlet’s community" в шапке веб-сайта
@@ -599,9 +599,9 @@
     При смене языка не должна меняться структура сайта и весь текст задачи должен быть переведен на выбранный язык   
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Создать игру с ботом нажав на кнопку "Create a game"
     - Выбрать уровень сложности
@@ -620,9 +620,9 @@
     При создании пользователем одной игры, у него нет возможности создать вторую активную игру 
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Создать игру с ботом нажав на кнопку "Create a game"
     - Выбрать уровень сложности
@@ -641,9 +641,9 @@
     После завершения игры, на главной странице в таблице "Завершенные игры" должны отображаться результаты игры
   prerequisites: |
     Пользователь не должен быть авторизован
-    https://codebattle.hexlet.io/session/new
     Пользователь должен иметь аккаунт на GitHub
   test-data: |
+    https://codebattle.hexlet.io/session/new
   steps: 
     - Авторизироваться через GitHub
     - Создать игру с ботом нажав на кнопку "Create a game"
@@ -663,9 +663,9 @@
     После создания игры с ботом, начинается батл 
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Создать игру с ботом нажав на кнопку "Create a game"
     - Выбрать уровень сложности
@@ -682,9 +682,9 @@
     После внесения данных в форму, другу отправляется приглашение на игру
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Нажать на кнопку "Create a game"
     - Выбрать уровень сложности
@@ -702,11 +702,11 @@
     После создания приглашения для игры с другими пользователями, в лобби появляется приглашение  
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
-    - СНажать на кнопку "Create a game"
+    - Нажать на кнопку "Create a game"
     - Выбрать уровень сложности
     - Выбрать игра с другими пользователями
     - Выбрать время
@@ -721,9 +721,9 @@
     Нумерация должна быть последовательна 
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Нажать на иконку профиля в правом верхнем углу
     - Нажать на раздел Users rating 
@@ -754,9 +754,9 @@
     Осуществляется сортировка пользователей после нажатия на кнопку "Rating"
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть TOP list в блоке LEADERBOARD
     - Нажать кнопку "Rating"
@@ -769,9 +769,9 @@
     Осуществляется сортировка пользователей после нажатия на кнопку "Games played"
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть TOP list в блоке LEADERBOARD
     - Нажать кнопку "Games played"
@@ -784,9 +784,9 @@
     Осуществляется сортировка пользователей после нажатия на кнопку "Joined"
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть TOP list в блоке LEADERBOARD
     - Нажать кнопку "Joined"
@@ -799,9 +799,9 @@
     Осуществляется сортировка пользователей после нажатия на кнопку "Performance"
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть TOP list в блоке LEADERBOARD
     - Нажать кнопку "Performance"
@@ -814,9 +814,9 @@
     После заполнения данных в форме, создается турнир и отображается в списке турниров 
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Открыть вкладку tournaments
     - Ввести произвольное название турнира
@@ -853,9 +853,9 @@
     После завершения игры всплывает окно с подверждением проигрыша, игра завершается 
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Нажать на кнопку "Create a game"
     - Выбрать первый уровень сложности
@@ -874,9 +874,9 @@
     После окончания времени игра заканчивается проигрышем
   prerequisites: |
     Открыта главная страница
-    https://codebattle.hexlet.io/#lobby
     Пользователь должен быть авторизован
   test-data: |
+    https://codebattle.hexlet.io/#lobby
   steps: 
     - Нажать на кнопку "Create a game"
     - Выбрать первый уровень сложности
